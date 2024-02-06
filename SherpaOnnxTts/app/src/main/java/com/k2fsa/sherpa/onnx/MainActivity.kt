@@ -162,11 +162,11 @@ class MainActivity : AppCompatActivity() {
         // The purpose of such a design is to make the CI test easier
         // Please see
         // https://github.com/k2-fsa/sherpa-onnx/blob/master/scripts/apk/generate-tts-apk-script.py
-        modelDir = "vits-ljs"
-        modelName = "vits-ljs.onnx"
+        modelDir = "vits-piper-en_US-lessac-low"
+        modelName = "en_US-lessac-low.onnx"
         ruleFsts = null
-        lexicon = "lexicon.txt"
-        dataDir = null
+        lexicon = null
+        dataDir = "vits-piper-en_US-lessac-low/espeak-ng-data"
 
         // Example 1:
         // modelDir = "vits-vctk"

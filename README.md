@@ -4,12 +4,13 @@ Running onnx-optimized text-to-speech models, language models, and speech-to-tex
 
 
 ## Introduction
-This repository contains the code for running onnx-optimized text-to-speech models, language models, and speech-to-text models on android. The code is based on the [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) framework. 
+This repository contains  the code for running onnx-optimized text-to-speech models, language models, and speech-to-text models on android. The code is based on the [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) framework. 
 
 ## Structure
 ### SherpaOnnxTts
 This module contains the code for running onnx tts models on android.
-The models are located in `app/src/main/assets`. There are two models located in two folders: `vits-ljs` and `vits-vctk`. 
+The models are located in `app/src/main/assets`. 
+Currently, there are three models: `vits-ljs`, `vits-piper-en_US-lessac-low`, and `vits-vctk`. 
 
 ## Usage
 1. Clone the repository using the command `git clone https://github.com/k2-fsa/AndroidML.git`.
